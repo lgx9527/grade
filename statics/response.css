@@ -1,0 +1,47 @@
+header{width:70%;margin:0 auto;margin-top:20px;display: flex;flex-wrap: nowrap;align-items: center}
+body{background-image: url(./713aa6bb3918a5e56330fb81d21a5f14.jpg);background-repeat: repeat;background-size: 100%}
+body>img{max-width: 12%;margin-left: 2%}
+.user{color: white;position: absolute;right: 2%;top: 40px}
+.user>p{display: inline-block}
+.user>a{text-align: right}
+header{margin-bottom: 7%}
+header>img{max-width: 30%;}
+header>span{width: 60%;margin: 0 auto;margin-top: 3%}
+header>span>img{max-width: 100%}
+header>span>h1{margin:0 auto;font-size: 40px;letter-spacing: 10px;color: rgb(154, 224, 130)}
+#submit{margin: 0 auto}
+
+#box>.content>form>button{display: block;margin: 0 auto;margin-top:23px;font-size: 18px;}
+
+#box>.content>#doPoint>table>tbody>tr{font-size: 15px;}
+
+#box{width:35%;box-sizing: border-box;font-family: "微软雅黑";border: 0}
+#box>h4{font-size: 20px;padding: 10px 10px;background-color: #54606d;opacity: 1;}
+
+.mobile_menu{display: none}
+.mobile_menu>.items{display: flex}
+
+#box{
+    background-color: rgba(255, 255, 255,.8);
+}
+
+@media screen and (min-width:992px) and (max-width:1106px){
+    header>span>h1{font-size: 36px;letter-spacing: 8px}
+    #box{width: 40%}
+}
+
+@media screen and (min-width:723px) and (max-width:991px){
+    header>span>h1{font-size: 30px;letter-spacing: 3px}
+    #box{width: 60%}
+    #box>.content>#doPoint>table>tbody>tr{font-size: 17px;}
+}
+
+@media screen and (max-width:722px){
+    header{width: 90%}
+    header>span{width: 90%}
+    /* header>span>h1{font-size: 18px;letter-spacing: 2px;text-align: center} */
+    #box{width: 100%}
+    #box>.content>#doPoint>table>tbody>tr{font-size: 15px;display: flex;flex-wrap: nowrap;align-items: center}
+    #box>.content>#doPoint>table>tbody>tr>th{display:inline-block;width:50%;vertical-align: center}
+    #box>.content>#doPoint>table>tbody>tr>td:last-child{display: none}
+} 
